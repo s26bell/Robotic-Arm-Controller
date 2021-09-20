@@ -1,0 +1,28 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+Entity Extender is port 
+		(
+			grappler_ON    : in std_logic;
+			EXTpos         : in std_logic_vector(3 downto 0); 
+			grap_stat      : out std_logic
+		);
+end Extender; 
+
+ARCHITECTURE one OF Extender IS 
+
+TYPE STATE_NAMES IS (    );
+
+SIGNAL  : STATE_NAMES;
+
+BEGIN
+
+
+
+
+
+
+
+
+END one; 
